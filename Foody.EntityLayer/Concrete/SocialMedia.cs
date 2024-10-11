@@ -8,6 +8,7 @@ namespace Foody.EntityLayer.Concrete
 {
 	public class SocialMedia
 	{
+		// Compare this snippet from Foody.EntityLayer/Concrete/SocialMedia.cs:
 		public int SocialMediaId { get; set; }
 		public string Title { get; set; }
 		public string Url { get; set; }
