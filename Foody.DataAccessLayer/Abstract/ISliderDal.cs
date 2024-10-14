@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.Abstract
 {
-	internal interface ISliderDal: IGenericDal<Slider>
+	public interface ISliderDal: IGenericDal<Slider>
 	{
 	}
 }

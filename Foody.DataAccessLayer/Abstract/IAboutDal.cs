@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.Abstract
 {
-	internal interface IAboutDal: IGenericDal<About>
+	public interface IAboutDal: IGenericDal<About>
 	{
 	}
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.Abstract
 {
-	internal interface ISocialMediaDal: IGenericDal<SocialMedia>
+	public interface ISocialMediaDal: IGenericDal<SocialMedia>
 	{
 	}
 }
